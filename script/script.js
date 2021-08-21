@@ -6,7 +6,7 @@ const grandTotal = document.getElementById('finalTotal');
 
 // global veriable
 
-// no ideo what to do
+// cupon section
 function addPromoCode(){
     const promoInputText = document.getElementById('promoText');
     const promoInput = promoInputText.value;
@@ -17,11 +17,12 @@ function addPromoCode(){
         grandTotal.innerText = getTotal() - discount;
         promoInputText.value = '';
         document.getElementById('matched').innerText = 'You got 20% Cash Back!';
-        document.getElementById('matched').value = '';
+        document.getElementById('error').innerText = '';
     }else{
         document.getElementById('error').innerText = 'Invalid Promo code!';
         promoInputText.value = '';
-        document.getElementById('erron').value = '';
+        
+        document.getElementById('matched').innerText = '';
        
     }
 }
