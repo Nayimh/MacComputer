@@ -1,0 +1,10 @@
+#devide{
+
+    display: flex;
+    width: 90vw;
+}
+
+hr{
+    border: 2px solid gray;
+    width: 50%;
+}
