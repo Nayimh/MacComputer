@@ -8,3 +8,15 @@ hr{
     border: 2px solid gray;
     width: 50%;
 }
+
+.btn{
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: gray;
+    color: white;
+}
+.apply-btn:hover{
+    background-color: rgb(219, 41, 41);
+    
+}

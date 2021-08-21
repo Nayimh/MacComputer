@@ -18,25 +18,30 @@
                 <div class="w-2/4 my-5 mx-2">
                     <img src="./image/mac.jpg" alt="">
                 </div>
+                <!-- upper part -->
                 <div class="w-2/4 my-5 m-8 text-justify">
                     <h1 class="font-bold text-xl">Customize your Blue 24-inch iMac with Apple M1 Chip.</h1>
                     <p>
                         Apple M1 chip with 8-core CPU with 4 performance cores and 4 effeciency cores, 7-core GPU, and 16-core Neural Engine 8 GB unified memory 256GB SSD storage Two Thunderbolt/USB 4 ports Magic Mouse Magic KeyBoard. <br>
                         -US English
                     </p>
+                    <!-- memory section  -->
                     <div class="mt-5">
                         <h1 class="font-semibold text-xl my-2">Memory</h1>
-                        <button id="memory" class="border-2 rounded-sm shadow-sm p-2 ">8GB unified Memory</button> <button id="customMemory" class="border-2 rounded-sm shadow-sm p-2">16GB unified Memory</button> 
+                        <button id="memory" class="border-2 rounded-sm shadow-sm p-2 btn">8 GB unified Memory</button> <button id="customMemory" class="border-2 rounded-sm shadow-sm p-2 btn">16 GB unified Memory</button> 
                     </div>
+                    <!-- storage section -->
                     <div>
                         <h1 class="font-semibold text-xl my-2">Storage</h1>
-                        <button id="storageOne" class="border-2 rounded-sm shadow-sm p-2">256GB SSD Storage</button> <button id="storageTwo" class="border-2 rounded-sm shadow-sm p-2">512GB SSD Storage</button> 
-                        <button id="storageThree" class="border-2 rounded-sm shadow-sm p-2">1TB SSD Storage</button> 
+                        <button id="storageOne" class="border-2 rounded-sm shadow-sm p-2 btn">256 GB SSD Storage</button> <button id="storageTwo" class="border-2 rounded-sm shadow-sm p-2 btn">512G B SSD Storage</button> 
+                        <button id="storageThree" class="border-2 rounded-sm shadow-sm p-2 btn">1 TB SSD Storage</button> 
                     </div>
-                    <div class="w-9/12">
+                    <!-- shipping section -->
+                    <div>
                         <h1 class="font-semibold text-xl my-2">Choose your delivery option</h1>
-                        <button id="freeDelivery" class="border-2 rounded-sm shadow-sm p-1"> Free prime Delivery</button> <button id="costDelivery" class="border-2 rounded-sm shadow-sm p-1">Friday, Aug 21 Delivery charge $20</button> 
+                        <button id="freeDelivery" class="border-2 rounded-sm shadow-sm p-1 btn"> Friday, Aug 25 Free prime Delivery</button> <button id="costDelivery" class="border-2 rounded-sm shadow-sm p-1 btn">Friday, Aug 21 Delivery charge $20</button> 
                     </div>
+                    <!-- price section -->
                     <div class="w-3/4 mt-8">
                         <table class="table-auto">
                             <thead>
@@ -60,16 +65,17 @@
                                   </tr>
                                 <tr class="border-t-4 border-gray-500">
                                     <td>Total Price</td>
-                                    <td>$<span id="grand-total">1299</span></td>
+                                    <td>$<span id="finalTotal">1299</span></td>
                                   </tr>
                                   
                             </tbody>
                      </table>                      
                         </table>
+                        <!-- promo section -->
                        <div class="pt-4">
                             <h3 class="p-1 font-semibold">Add Promo code</h3>
                            <input class="border-gray-200 bg-gray-200 p-1 rounded-sm" id="promoText" type="text">
-                           <button id="apply" class="bg-red-500	p-1 text-white rounded-sm mt-1">Apply</button>
+                           <button id="apply" class="bg-red-500	p-1 text-white rounded-sm mt-1 apply-btn">Apply</button>
                        </div>
                        <span id="error" class="text-red-600	"></span>
                 <span
@@ -82,9 +88,10 @@
             
         </section>
     </main>
+    <!-- grand total section -->
    <footer class="mt-4 border-t-4 w-3/4 mx-auto">
     <div class="w-3/4 mx-auto text-center">
-        <h1 class="font-semibold text-2xl">Total: $<Span id="finalTotal">1299</Span></h1>
+        <h1 class="font-semibold text-2xl">Total: $<Span id="grand-total">1299</Span></h1>
     </div>
    </footer>
    <script src="./script/script.js"></script>

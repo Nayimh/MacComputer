@@ -1,7 +1,7 @@
 // global veriable 
-const finalPrice = document.getElementById('grand-total');
+const finalPrice = document.getElementById('finalTotal');
 
-const grandTotal = document.getElementById('finalTotal');
+const grandTotal = document.getElementById('grand-total');
 
 
 // global veriable
